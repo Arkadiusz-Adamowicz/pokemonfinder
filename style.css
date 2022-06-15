@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 700px;
   margin: auto;
   text-align: center;
   padding-top: 2rem;
@@ -47,7 +47,7 @@ body {
   border-radius: 5px;
   text-align: center;
   cursor: pointer;
-  caret-color: transparent;
+  caret-color: var(--sec-color);
   width: 100%;
   margin-right: 1rem;
   background: #f4f4f4;
@@ -143,7 +143,6 @@ body {
 #image_back {
   background: #fff;
   border: 1px solid var(--sec-color);
-  margin: 1 rem;
   border-radius: 8px;
 }
 
@@ -177,7 +176,6 @@ body {
 
 span {
   font-weight: bold;
-  font-size: larger;
   color: var(--sec-color);
 }
 
@@ -239,4 +237,5 @@ span {
   .link {
     font-size: small;
   }
+}
 }
