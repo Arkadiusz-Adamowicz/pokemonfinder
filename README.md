@@ -1,5 +1,5 @@
 # pokemonfinder
-Pokemon Finder application.
+Responsive App displays Pokemons with its poperties. Based on API source from https://pokeapi.co/api/v2/pokemon
 
 https://pokemon-finder-arek.netlify.app/
 
