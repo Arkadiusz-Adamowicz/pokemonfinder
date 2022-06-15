@@ -8,6 +8,7 @@ const ability = document.querySelector("#ability");
 const weight = document.querySelector("#weight");
 const height = document.querySelector("#height");
 const items = document.querySelector("#items");
+const types = document.querySelector("#types");
 
 button.addEventListener("click", () => {
   fetch(`https://pokeapi.co/api/v2/pokemon/${input.value}`)
@@ -19,11 +20,17 @@ button.addEventListener("click", () => {
       const imageBackValue = data.sprites.back_default;
       const weightValue = data.weight;
       const heightValue = data.height;
-      const abilitiesValue = data.abilities.map((ability) => ability.ability.name).join(', ');
-      const itemsValue = data.held_items.map((item) => item.item.name).join(', ');
+      const abilitiesValue = data.abilities
+        .map((ability) => ability.ability.name)
+        .join(", ");
+      const itemsValue = data.held_items
+        .map((item) => item.item.name)
+        .join(", ");
+      const typesValue = data.types.map((type) => type.type.name).join(", ");
 
       name.innerHTML = nameValue;
-      name.classList.add("name_border");
+      name.classList.add('nameBG');
+
       imageFront.innerHTML = `<img src=${imageFrontValue} width="150" height="150">`;
       imageBack.innerHTML = `<img src=${imageBackValue} width="150" height="150">`;
       ability.innerHTML = `ability: <span>${abilitiesValue}</span>`;
@@ -34,7 +41,11 @@ button.addEventListener("click", () => {
       height.classList.add("border");
       items.innerHTML = `items:  <span>${itemsValue}</span>`;
       items.classList.add("border");
+      types.innerHTML = `types:  <span>${typesValue}</span>`;
+      types.classList.add("border");
+
       input.value = "";
+
       output.style.display = "flex";
     })
     .catch((err) => alert("Something went wrong"));
