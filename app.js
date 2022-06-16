@@ -9,6 +9,7 @@ const weight = document.querySelector("#weight");
 const height = document.querySelector("#height");
 const items = document.querySelector("#items");
 const types = document.querySelector("#types");
+const species = document.querySelector("#species");
 
 button.addEventListener("click", () => {
   fetch(`https://pokeapi.co/api/v2/pokemon/${input.value}`)
@@ -29,6 +30,7 @@ button.addEventListener("click", () => {
       const typesValue = data.types
         .map((type) => type.type.name)
         .join(", ");
+      const speciesValue = data.name;
 
       name.innerHTML = nameValue;
       name.classList.add("nameBG");
@@ -38,14 +40,16 @@ button.addEventListener("click", () => {
 
       ability.innerHTML = `ability: <span>${abilitiesValue}</span>`;
       ability.classList.add("border");
-      weight.innerHTML = `weight:  <span>${weightValue}</span>`;
+      weight.innerHTML = `weight: <span>${weightValue}</span>`;
       weight.classList.add("border");
-      height.innerHTML = `height:  <span>${heightValue}</span>`;
+      height.innerHTML = `height: <span>${heightValue}</span>`;
       height.classList.add("border");
-      items.innerHTML = `items:  <span>${itemsValue}</span>`;
+      items.innerHTML = `items: <span>${itemsValue}</span>`;
       items.classList.add("border");
-      types.innerHTML = `types:  <span>${typesValue}</span>`;
+      types.innerHTML = `types: <span>${typesValue}</span>`;
       types.classList.add("border");
+      species.innerHTML = `species: <span>${speciesValue}</span>`;
+      species.classList.add("border");
 
       input.value = "";
 

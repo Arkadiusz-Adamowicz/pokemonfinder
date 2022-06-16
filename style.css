@@ -24,7 +24,7 @@ body {
   max-width: 800px;
   margin: auto;
   text-align: center;
-  padding-top: 2rem;
+  padding: 1rem 0;
 }
 
 .heading {
@@ -69,7 +69,7 @@ h3 {
 
 #searchButton {
   padding: 0 2rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
   padding-top: 2px;
   border-radius: 5px;
@@ -134,6 +134,7 @@ h3 {
 
 .flex-container {
   text-align: justify;
+  max-width: 300px;
 }
 
 #name {
@@ -147,7 +148,12 @@ h3 {
   border: 1px solid var(--primary-color);
 }
 
-#image_front,
+#image_front {
+  background: #fff;
+  border: 1px solid var(--sec-color);
+  border-radius: 8px;
+}
+
 #image_back {
   background: #fff;
   border: 1px solid var(--sec-color);
@@ -158,7 +164,8 @@ h3 {
 #weight,
 #height,
 #items,
-#types {
+#types,
+#species {
   color: var(--primary-color);
   border-radius: 5px;
   margin: 0.5rem 0;
