@@ -14,21 +14,21 @@
 }
 
 body {
-  background: url("img/abstract.jpg");
+  background: url("img/abstract1.jpg");
   background-size: cover;
   background-repeat: repeat;
   color: #fff;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 750px;
   margin: auto;
   text-align: center;
   padding: 1rem 0;
 }
 
 .heading {
-  background-image: url("./img/abstract2.jpg");
+  background-image: url("./img/poke.webp");
   background-position: center;
   background-size: cover;
   border: 1px solid var(--primary-color);
