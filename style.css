@@ -182,6 +182,7 @@ h3 {
   color: var(--sec-color);
   text-decoration: none;
   background: var(--sec-color);
+  background-size: fit-content;
   padding: 0.3rem;
   border-radius: 5px;
   color: #f4f4f4;
