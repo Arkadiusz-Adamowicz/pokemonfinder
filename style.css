@@ -14,7 +14,7 @@
 }
 
 body {
-  background: url("img/abstract1.jpg");
+  background: url("img/abstract.jpg");
   background-size: cover;
   background-repeat: repeat;
   color: #fff;
@@ -28,7 +28,7 @@ body {
 }
 
 .heading {
-  background-image: url("./img/poke.jpg");
+  background-image: url("./img/abstract2.jpg");
   background-position: center;
   background-size: cover;
   border: 1px solid var(--primary-color);
@@ -113,7 +113,7 @@ h3 {
 }
 
 ::placeholder {
-  opacity: 0.3;
+  opacity: 0.2;
   text-align: center;
   color: #000;
 }
@@ -237,7 +237,7 @@ span {
   }
 
   ::placeholder {
-    opacity: 0.3;
+    opacity: 0.2;
     text-align: center;
   }
 
