@@ -177,7 +177,8 @@ h3 {
 }
 
 .link{
-  float: right;
+  display: flex;
+  justify-content: right;
   color: var(--sec-color);
   text-decoration: none;
   background: var(--sec-color);
