@@ -14,7 +14,7 @@
 }
 
 body {
-  background: url("img/abstract.jpg");
+  background: url("img/abstract1.jpg");
   background-size: cover;
   background-repeat: repeat;
   color: #fff;
@@ -28,7 +28,7 @@ body {
 }
 
 .heading {
-  background-image: url("./img/poke.webp");
+  background-image: url("./img/poke.jpg");
   background-position: center;
   background-size: cover;
   border: 1px solid var(--primary-color);
@@ -192,8 +192,8 @@ span {
 }
 
 .logo {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .logo-list {
@@ -202,16 +202,17 @@ justify-content: center;
 }
 
 .list {
-text-align: center;
-font-size: xx-large;
-padding: 0;
-text-shadow: 0 0 2px var(--sec-color);
-
+  text-align: center;
+  font-size: xx-large;
+  padding: 0;
+  text-shadow: 0 0 2px var(--sec-color);
 }
 
 @media (max-width: 500px) {
   body {
     height: 100vh;
+    background-repeat: repeat;
+    background-size: auto;
     background-repeat: repeat;
   }
 
@@ -269,6 +270,11 @@ text-shadow: 0 0 2px var(--sec-color);
   .logo {
     width: 100%;
     height: 100%;
+  }
+
+  .logo-list img {
+    width: 80%;
+    height: 80%;
   }
 
   @media (max-width: 320px) {
