@@ -27,11 +27,8 @@ button.addEventListener("click", () => {
       const itemsValue = data.held_items
         .map((item) => item.item.name)
         .join(", ");
-      const typesValue = data.types
-        .map((type) => type.type.name)
-        .join(", ");
+      const typesValue = data.types.map((type) => type.type.name).join(", ");
       const speciesValue = data.name;
-
       name.innerHTML = nameValue;
       name.classList.add("nameBG");
 

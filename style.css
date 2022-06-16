@@ -38,7 +38,7 @@ body {
 
 h3 {
   text-shadow: 0 0 2px var(--sec-color);
-  text-align: center;
+  text-align: justify;
   padding: 1rem 3rem 3rem 3rem;
   line-height: 1.3;
 }
@@ -204,15 +204,8 @@ span {
 }
 
 .logo-list {
-  display: flex;
-  justify-content: center;
-}
-
-.list {
-  text-align: center;
-  font-size: xx-large;
-  padding: 0;
-  text-shadow: 0 0 2px var(--sec-color);
+display: flex;
+justify-content: center;
 }
 
 @media (max-width: 500px) {
