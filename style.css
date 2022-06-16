@@ -184,7 +184,7 @@ h3 {
   font-weight: bold;
   padding: 0.3rem;
   border-radius: 5px;
-  text-shadow: 0px 0px 3px #fff;
+  text-shadow: 1px 1px 5px yellow;
   z-index: 1;
 }
 
