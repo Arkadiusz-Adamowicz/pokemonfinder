@@ -263,14 +263,14 @@ span {
   #image_front,
   #image_back {
     margin: 0.5rem;
-    width: 300px;
+    width: 290px;
     height: 200px;
     opacity: 0.9;
   }
 
   img {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
   }
 
   .logo {
