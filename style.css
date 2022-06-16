@@ -176,9 +176,8 @@ h3 {
   border: 1px solid var(--primary-color);
 }
 
-.link {
-  display: flex;
-  justify-content: right;
+.link{
+  float: right;
   color: var(--sec-color);
   text-decoration: none;
   background: var(--sec-color);
