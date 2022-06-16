@@ -179,12 +179,12 @@ h3 {
 .link {
   display: flex;
   justify-content: right;
-  color: var(--sec-color);
+  color: #fff;
   text-decoration: none;
   font-weight: bolder;
   padding: 0.3rem;
   border-radius: 5px;
-  text-shadow: 0 0 1px yellow;
+  text-shadow: 0 0 2px var(--sec-color);
   z-index: 1;
 }
 
@@ -283,11 +283,6 @@ span {
   .logo-list img {
     width: 80%;
     height: 80%;
-  }
-
-  .link {
-    justify-content: left;
-    font-size: 0.9rem;
   }
 
   @media (max-width: 320px) {
