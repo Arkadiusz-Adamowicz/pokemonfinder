@@ -179,7 +179,7 @@ h3 {
 .link {
   display: flex;
   justify-content: right;
-  color: yellow;
+  color: var(--sec-color);
   text-decoration: none;
   padding: 0.3rem;
   border-radius: 5px;
