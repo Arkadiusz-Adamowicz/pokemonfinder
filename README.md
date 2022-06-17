@@ -1,5 +1,5 @@
 # pokemonfinder
-Responsive application displays Pokemons with its poperties. Based on API source from https://pokeapi.co/api/v2/pokemon
+Responsive application displays Pokemons with its poperties. Based on API from https://pokeapi.co/api/v2/pokemon
 
 https://pokemon-finder-arek.netlify.app/
 
