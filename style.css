@@ -195,7 +195,7 @@ h3 {
   font-weight: bolder;
   padding: 0.3rem;
   border-radius: 5px;
-  text-shadow: 1px 1px 1px var(--sec-color), -1px -1px 1px var(--sec-color) ;
+  text-shadow: 1px 1px 0px var(--sec-color);
 }
 
 .form-item {
@@ -224,7 +224,7 @@ span {
   font-size: 0.9rem;
   font-weight: bold;
   padding: 0.3rem;
-  text-shadow: 1px 1px 0px var(--sec-color), -1px -1px 0px var(--sec-color) ;
+  text-shadow: 1px 1px 0px var(--sec-color);
 }
 
 @media (max-width: 500px) {
