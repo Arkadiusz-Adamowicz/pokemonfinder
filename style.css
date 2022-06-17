@@ -210,7 +210,7 @@ span {
 
 .container-list {
   border: 1px solid var(--sec-color);
-  border-radius:10px;
+  border-radius: 10px;
 }
 
 @media (max-width: 500px) {
@@ -270,6 +270,7 @@ span {
   }
   #logo-list img {
     width: 80%;
+    padding-top: 1rem;
   }
 
   @media (max-width: 320px) {
