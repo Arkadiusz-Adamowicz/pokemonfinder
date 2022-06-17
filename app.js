@@ -33,8 +33,8 @@ button.addEventListener("click", () => {
       name.innerHTML = nameValue;
       name.classList.add("nameBG");
       output.style.display = 'flex';
-      imageFront.innerHTML = `<img src=${imageFrontValue} width="150" height="150">`;
-      imageBack.innerHTML = `<img src=${imageBackValue} width="150" height="150">`;
+      imageFront.innerHTML = `<img src=${imageFrontValue} width="200" height="200" center>`;
+      imageBack.innerHTML = `<img src=${imageBackValue} width="200" height="200 center">`;
       ability.innerHTML = `ability: <span>${abilitiesValue}</span>`;
       ability.classList.add("border");
       weight.innerHTML = `weight: <span>${weightValue}</span>`;
