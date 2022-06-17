@@ -5,6 +5,7 @@
   --sec-color: rgb(33, 94, 145);
   --light-color: #f4f4f4;
   --yellow-color: rgb(247, 203, 7);
+  --red-color: rgb(250, 0, 0);
 }
 
 * {
@@ -51,7 +52,6 @@ h3 {
 .navbar {
   display: flex;
   justify-content: center;
-  padding-top: 1rem;
 }
 
 #searchText {
@@ -142,7 +142,7 @@ h3 {
   border-radius: 5px;
   padding-bottom: 5px;
   opacity: 0.9;
-  margin: 0
+  margin: 0;
 }
 
 .nameBG {
@@ -201,6 +201,7 @@ span {
   display: flex;
   justify-content: center;
   width: 400px;
+  padding-bottom: 0.5rem;
 }
 
 .logo-list {
@@ -211,6 +212,13 @@ span {
 .container-list {
   border: 1px solid var(--sec-color);
   border-radius: 10px;
+}
+
+.error {
+  color: var(--yellow-color);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  text-shadow: 0px 0px 2px var(--sec-color), 0px 0px 2px var(--sec-color);
 }
 
 @media (max-width: 500px) {
@@ -267,10 +275,15 @@ span {
 
   .logo {
     width: 95%;
+    padding-bottom: 0;
   }
   #logo-list img {
     width: 80%;
     padding-top: 1rem;
+  }
+
+  .error {
+    margin-bottom: 0;
   }
 
   @media (max-width: 320px) {

@@ -1,3 +1,4 @@
+const error = document.querySelector(".error");
 const button = document.querySelector("#searchButton");
 const input = document.querySelector("#searchText");
 const output = document.querySelector("#output");
@@ -31,9 +32,9 @@ button.addEventListener("click", () => {
       const speciesValue = data.name;
 
       name.innerHTML = nameValue;
-      name.style.margin = '1rem 0'
+      name.style.margin = "1rem 0";
       name.classList.add("nameBG");
-      output.style.display = 'flex';
+      output.style.display = "flex";
       imageFront.innerHTML = `<img src=${imageFrontValue} width="200" height="200" center>`;
       imageBack.innerHTML = `<img src=${imageBackValue} width="200" height="200 center">`;
       ability.innerHTML = `ability: <span>${abilitiesValue}</span>`;
@@ -52,5 +53,8 @@ button.addEventListener("click", () => {
       input.value = "";
       output.style.display = "flex";
     })
-    .catch((err) => alert("Something went wrong"));
-});
+    .catch((err) => (error.innerHTML = "error try again"));
+    error.classList.add("error");
+    input.value = "";
+    setTimeout(() => error.remove(), 4000);
+  });
