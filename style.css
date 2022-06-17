@@ -266,11 +266,6 @@ span {
     flex-direction: column;
   }
 
-  #name {
-    padding-top: 5px;
-    letter-spacing: 2px;
-  }
-
   #image {
     margin-bottom: 1rem;
     padding: 0;
