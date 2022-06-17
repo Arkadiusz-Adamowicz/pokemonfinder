@@ -3,4 +3,4 @@ Responsive App displays Pokemons with its poperties. Based on API source from ht
 
 https://pokemon-finder-arek.netlify.app/
 
-<img width="1410" alt="Zrzut ekranu 2022-06-16 o 07 41 59" src="https://user-images.githubusercontent.com/90817546/173999831-b1cfc72e-b248-468a-8ec0-87d7ab85b9cb.png">
+<img width="523" alt="Zrzut ekranu 2022-06-17 o 12 59 37" src="https://user-images.githubusercontent.com/90817546/174285924-d15e8de4-bdbc-4f27-8c79-25b64a6854bb.png">
