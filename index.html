@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="style.css" />
   <title>Pokemon Finder</title>
 </head>
+
 <body>
   <div class="container">
     <div class="heading">
@@ -19,16 +20,16 @@
         <img src="./img/pokemon.png" class="logo" alt="pokeapi" />
       </div>
       <div class="error"></div>
-        <nav class="navbar">
+      <nav class="navbar">
         <input type="text" name="text" id="searchText" placeholder="enter pokemon name" />
         <input type="button" id="searchButton" value="search" />
       </nav>
       <h2 id="name" class="form-item"></h2>
       <div class="output" id="output">
-        <div id="image_">
-          <div id="image_front"></div>
-          <div id="image_back"></div>
-        </div>
+      <div class="image-container">
+        <div id="image_front"></div>
+        <div id="image_back"></div>
+      </div>
         <div class="flex-container">
           <div id="ability"></div>
           <div id="items"></div>
@@ -44,5 +45,3 @@
 </body>
 
 </html>
-
-
