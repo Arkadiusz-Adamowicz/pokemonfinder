@@ -57,7 +57,7 @@ h3 {
 #searchText {
   padding: 0.5rem;
   padding-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   border-radius: 5px;
   text-align: center;
   cursor: pointer;
@@ -76,7 +76,7 @@ h3 {
 
 #searchButton {
   padding: 0 2rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
   padding-top: 2px;
   opacity: 0.9;
@@ -116,7 +116,7 @@ h3 {
 
 ::placeholder {
   opacity: 0.2;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
   color: #000;
 }
@@ -146,7 +146,7 @@ h3 {
 #name {
   color: yellow;
   border-radius: 5px;
-  padding-bottom: 2px;
+  padding-bottom: 5px;
   opacity: 0.9;
 }
 
@@ -235,7 +235,7 @@ span {
   #searchButton {
     padding: 0.5rem 1rem;
     color: var(--sec-color);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   #searchText {
@@ -250,6 +250,7 @@ span {
   ::placeholder {
     opacity: 0.2;
     text-align: center;
+    font-size: 1.1rem;
   }
 
   .output {
