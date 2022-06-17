@@ -41,7 +41,7 @@ button.addEventListener("click", () => {
       weight.classList.add("border");
       height.innerHTML = `height: <span>${heightValue}</span>`;
       height.classList.add("border");
-      items.innerHTML = `items: <span>${itemsValue}</span>`;
+      items.innerHTML = `held items: <span>${itemsValue}</span>`;
       items.classList.add("border");
       types.innerHTML = `types: <span>${typesValue}</span>`;
       types.classList.add("border");
