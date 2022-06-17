@@ -31,6 +31,7 @@ button.addEventListener("click", () => {
       const speciesValue = data.name;
 
       name.innerHTML = nameValue;
+      name.style.margin = '1rem 0'
       name.classList.add("nameBG");
       output.style.display = 'flex';
       imageFront.innerHTML = `<img src=${imageFrontValue} width="200" height="200" center>`;
