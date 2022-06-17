@@ -29,12 +29,12 @@ button.addEventListener("click", () => {
         .join(", ");
       const typesValue = data.types.map((type) => type.type.name).join(", ");
       const speciesValue = data.name;
+
       name.innerHTML = nameValue;
       name.classList.add("nameBG");
-
+      output.style.display = 'flex';
       imageFront.innerHTML = `<img src=${imageFrontValue} width="150" height="150">`;
       imageBack.innerHTML = `<img src=${imageBackValue} width="150" height="150">`;
-
       ability.innerHTML = `ability: <span>${abilitiesValue}</span>`;
       ability.classList.add("border");
       weight.innerHTML = `weight: <span>${weightValue}</span>`;
@@ -49,7 +49,6 @@ button.addEventListener("click", () => {
       species.classList.add("border");
 
       input.value = "";
-
       output.style.display = "flex";
     })
     .catch((err) => alert("Something went wrong"));
