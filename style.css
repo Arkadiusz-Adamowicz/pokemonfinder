@@ -190,13 +190,12 @@ h3 {
 .link {
   display: flex;
   justify-content: right;
-  color: var(--light-color);
+  color: var(--yellow-color);
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bolder;
   padding: 0.3rem;
   border-radius: 5px;
-  text-shadow: 0 0 3px var(--sec-color);
-  z-index: 1;
+  text-shadow: 1px 1px 1px var(--sec-color), -1px -1px 1px var(--sec-color) ;
 }
 
 .form-item {
@@ -225,7 +224,7 @@ span {
   font-size: 0.9rem;
   font-weight: bold;
   padding: 0.3rem;
-  text-shadow: 0 0 2px var(--sec-color);
+  text-shadow: 1px 1px 0px var(--sec-color), -1px -1px 0px var(--sec-color) ;
 }
 
 @media (max-width: 500px) {
