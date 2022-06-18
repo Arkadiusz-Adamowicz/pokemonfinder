@@ -13,7 +13,6 @@
   padding: 0;
   margin: 0;
   font-family: "Special Elite";
-  /* font-family: "Comic Neue"; */
 }
 
 body {
@@ -32,11 +31,13 @@ body {
 }
 
 .heading {
-  background-image: url("./img/poke.jpg");
-  background-position: center;
+  background-image: url("./img/poke2.jpeg");
   background-size: cover;
+  background-repeat: no-repeat;
   border: 1px solid var(--sec-color);
   border-radius: 10px;
+  height: auto;
+  width: auto;
   padding: 1rem;
 }
 
@@ -204,7 +205,7 @@ span {
   display: flex;
   justify-content: center;
   width: 400px;
-  padding-bottom: 0.5rem;
+  padding-left: 1rem;
 }
 
 .logo-list {
@@ -272,7 +273,7 @@ span {
 
   .logo {
     width: 95%;
-    padding-bottom: 0;
+    padding: 0;
   }
   #logo-list img {
     width: 80%;
