@@ -53,8 +53,5 @@ button.addEventListener("click", () => {
       input.value = "";
       output.style.display = "flex";
     })
-    .catch((err) => (error.innerHTML = "error try again"));
-  error.classList.add("error");
-  input.value = "";
-  setTimeout(() => error.remove(), 4000);
+    .catch(err => alert("error try again"));
 });
