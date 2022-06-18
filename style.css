@@ -31,7 +31,7 @@ body {
 }
 
 .heading {
-  background-image: url("./img/poke1.jpeg");
+  background-image: url("./img/poke2.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   border: 1px solid var(--sec-color);
@@ -239,12 +239,6 @@ span {
     padding-top: 1rem;
   }
 
-  .heading {
-    background-image: url("./img/poke2.jpeg");
-    background-position: center;
-    background-size: cover;
-  }
-
   #searchButton {
     padding: 0.5rem 1rem;
     color: var(--sec-color);
@@ -278,6 +272,11 @@ span {
   #image_back {
     margin-top: 1rem;
   }
+
+  .heading {
+    background-position: center;
+  }
+
 
   .logo {
     width: 100%;
