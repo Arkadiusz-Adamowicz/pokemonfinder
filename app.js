@@ -11,6 +11,9 @@ const height = document.querySelector("#height");
 const items = document.querySelector("#items");
 const types = document.querySelector("#types");
 const species = document.querySelector("#species");
+const heading = document.querySelector(".heading");
+
+heading.style.backgroundPositionY = '-110px';
 
 button.addEventListener("click", () => {
   fetch(`https://pokeapi.co/api/v2/pokemon/${input.value}`)
@@ -51,6 +54,7 @@ button.addEventListener("click", () => {
       types.classList.add("border");
       species.innerHTML = `species: <span>${speciesValue}</span>`;
       species.classList.add("border");
+      heading.style.backgroundPositionY = '';
 
       input.value = "";
       output.style.display = "flex";
