@@ -118,6 +118,7 @@ h3 {
 
 .image-container {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -167,6 +168,7 @@ h3 {
   padding: 0.5rem 1rem;
   opacity: 0.9;
   width: 100%;
+  background: fit-content;
 }
 
 #logo-list img {
