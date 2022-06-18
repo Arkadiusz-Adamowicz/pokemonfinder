@@ -63,7 +63,7 @@ h3 {
   text-align: center;
   cursor: pointer;
   caret-color: var(--sec-color);
-  /* width: 90%; */
+  width: 100%;
   opacity: 0.9;
   margin-right: 1rem;
   background: var(--light-color);
