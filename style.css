@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-  max-width: 480px;
+  max-width: 500px;
   margin: auto;
   text-align: center;
   padding: 1rem 0;
@@ -33,6 +33,7 @@ body {
 .heading {
   background-image: url("./img/poke2.jpeg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border: 1px solid var(--sec-color);
   border-radius: 10px;
@@ -57,14 +58,13 @@ h3 {
 
 #searchText {
   padding: 0.5rem;
-  /* padding-top: 10px; */
   font-size: 1.1rem;
   border-radius: 10px;
   text-align: center;
   cursor: pointer;
   caret-color: var(--sec-color);
   width: 100%;
-  opacity: 0.9;
+  opacity: 1;
   margin-right: 1rem;
   background: var(--light-color);
   border: 1px solid var(--sec-color);
@@ -80,7 +80,7 @@ h3 {
   font-size: 1.1rem;
   text-align: center;
   padding-top: 2px;
-  opacity: 0.9;
+  opacity: 1;
   color: var(--sec-color);
   border-radius: 10px;
   border: 1px solid var(--sec-color);
@@ -126,19 +126,18 @@ h3 {
   border: 1px solid var(--sec-color);
   background: var(--light-color);
   border-radius: 10px;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 #image_back {
   border: 1px solid var(--sec-color);
   background: var(--light-color);
   border-radius: 10px;
-  opacity: 0.9;
+  opacity: 1;
 }
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   padding: 0.5rem 0;
 }
 
@@ -146,7 +145,7 @@ h3 {
   color: yellow;
   border-radius: 10px;
   padding-bottom: 5px;
-  opacity: 0.9;
+  opacity: 1;
   margin: 0;
 }
 
@@ -164,11 +163,11 @@ h3 {
   color: #333;
   border-radius: 10px;
   font-size: 1.1rem;
+  text-align: justify;
   margin: 0.5rem;
-  padding: 0.5rem 0rem;
-  opacity: 0.9;
+  padding: 0.5rem 5rem;
+  opacity: 1;
   width: 100%;
-  background: fit-content;
 }
 
 #logo-list img {
@@ -218,13 +217,6 @@ span {
 .container-list {
   border: 1px solid var(--sec-color);
   border-radius: 10px;
-}
-
-.error {
-  color: var(--yellow-color);
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-  text-shadow: 0px 0px 2px var(--sec-color), 0px 0px 2px var(--sec-color);
 }
 
 @media (max-width: 500px) {
@@ -277,7 +269,6 @@ span {
     background-position: center;
   }
 
-
   .logo {
     width: 100%;
     padding: 0;
@@ -295,6 +286,7 @@ span {
   #types,
   #species {
     margin: 0.5rem 0;
+    text-align: center;
   }
 
   @media (max-width: 320px) {
