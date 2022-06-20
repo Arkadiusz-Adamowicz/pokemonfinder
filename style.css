@@ -31,7 +31,7 @@ body {
 }
 
 .heading {
-  background-image: url("./img/poke2.jpeg");
+  background-image: url("./img/poke1.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -267,6 +267,7 @@ span {
 
   .heading {
     background-position: center;
+    background-size: cover;
   }
 
   .logo {
