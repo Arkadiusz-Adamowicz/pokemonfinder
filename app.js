@@ -14,13 +14,13 @@ const items = document.querySelector("#items");
 const types = document.querySelector("#types");
 const species = document.querySelector("#species");
 const heading = document.querySelector(".heading");
-heading.style.backgroundPositionY = '-50px';
+heading.style.backgroundPositionY = '-120px';
 
 button.addEventListener("click", () => {
   fetch(`https://pokeapi.co/api/v2/pokemon/${input.value}`)
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
+      console.log(data.name);
       const nameValue = data.name;
       const imageFrontValue = data.sprites.front_default;
       const imageBackValue = data.sprites.back_default;
@@ -59,9 +59,6 @@ button.addEventListener("click", () => {
       heading.style.background.size = 'cover';
 
       input.value = "";
-      // output.style.display = "none"
     })
     .catch(err => alert("error try again"));
-
-
 });
