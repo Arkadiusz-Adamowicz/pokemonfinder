@@ -57,7 +57,6 @@ button.addEventListener("click", () => {
       species.classList.add("border");
       heading.style.backgroundPositionY = '0';
       heading.style.background.size = 'cover';
-
       input.value = "";
     })
     .catch(err => alert("error try again"));
