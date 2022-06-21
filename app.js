@@ -1,5 +1,7 @@
 const error = document.querySelector(".error");
 const button = document.querySelector("#searchButton");
+const buttonPrev = document.querySelector('#btn-prev');
+const buttonNext = document.querySelector('#btn-next');
 const input = document.querySelector("#searchText");
 const output = document.querySelector("#output");
 const name = document.querySelector("#name");
