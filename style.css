@@ -257,6 +257,14 @@ span {
     flex-direction: column;
   }
 
+  #ability,
+  #weight,
+  #height,
+  #items,
+  #types,
+  #species {
+    margin: 0.5rem 0;
+  }
   .image-container {
     display: flex;
     flex-direction: column;
