@@ -97,7 +97,7 @@ h3 {
 }
 
 #searchButton {
-  padding: 0 2rem;
+  padding: 0 1rem;
   font-size: 1.1rem;
   text-align: center;
   opacity: 0.9;
@@ -256,10 +256,13 @@ span {
     border: none;
   }
 
-  #searchButton {
-    padding: 0 0.2rem;
+  .button-text{
     color: var(--sec-color);
     font-size: 1rem;
+  }
+
+  #searchButton {
+    padding: 0 1rem;
   }
 
   #searchText {
