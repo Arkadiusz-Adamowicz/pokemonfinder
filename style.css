@@ -229,6 +229,7 @@ span {
   width: 400px;
   padding-left: 1rem;
   padding-bottom: 0.5rem;
+  animation: animate 2s forwards ease-in;
 }
 
 .logo-list {
@@ -239,6 +240,18 @@ span {
 .container-list {
   border: 1px solid var(--sec-color);
   border-radius: 10px;
+}
+
+@keyframes animate {
+  from {
+      opacity: 0;
+      transform: translateY(-100px);
+  }
+
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
 
 @media (max-width: 500px) {
@@ -299,10 +312,8 @@ span {
   }
 
   .heading {
-    background-position: center;
-    background-size: cover;
     border-radius: 0;
-    padding: 0.5rem;
+    padding-top: 1rem;
   }
 
   .logo {
