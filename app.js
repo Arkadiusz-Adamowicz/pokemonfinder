@@ -12,7 +12,6 @@ const items = document.querySelector("#items");
 const types = document.querySelector("#types");
 const species = document.querySelector("#species");
 const heading = document.querySelector(".heading");
-
 heading.style.backgroundPositionY = '-50px';
 
 button.addEventListener("click", () => {
@@ -58,7 +57,9 @@ button.addEventListener("click", () => {
       heading.style.background.size = 'cover';
 
       input.value = "";
-      output.style.display = "flex";
+      // output.style.display = "none"
     })
     .catch(err => alert("error try again"));
+
+
 });
