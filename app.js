@@ -17,6 +17,8 @@ const heading = document.querySelector(".heading");
 const propertiesContainer = document.querySelector(".properties-container");
 const imageContainer = document.querySelector(".image-container");
 
+buttonPrev.style.display = "none";
+buttonNext.style.display = "none";
 heading.style.backgroundPositionY = "-150px";
 
 button.addEventListener("click", () => {
