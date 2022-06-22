@@ -345,6 +345,10 @@ span {
   }
 
   .heading {
+    background-image: url("./img/poke3.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 0;
     padding-top: 1rem;
   }
@@ -358,11 +362,6 @@ span {
     width: 80%;
     padding-top: 1rem;
   }
-
-  /* .link-container {
-    display: flex;
-    justify-content: right;
-  } */
 
   @media (max-width: 320px) {
     .link {
