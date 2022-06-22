@@ -147,7 +147,6 @@ h3 {
   background: var(--light-color);
   border-radius: 10px;
   opacity: 0.9;
-  animation: image-front 1s forwards ease-in;
 
 }
 
@@ -156,14 +155,12 @@ h3 {
   background: var(--light-color);
   border-radius: 10px;
   opacity: 0.9;
-  animation: image-back 1s forwards ease-in;
 
 }
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   padding: 0.5rem 0;
-  animation: output 1s forwards ease-in;
 }
 
 #name {
@@ -236,7 +233,7 @@ span {
   width: 400px;
   padding-left: 1rem;
   padding-bottom: 0.5rem;
-  animation: logo 1.5s forwards ease-in;
+  animation: logo 1s forwards ease-in;
 }
 
 #logo-list img {
@@ -263,18 +260,6 @@ span {
 
 @keyframes output {
   from {
-    opacity: 0;
-    transform: translateY(800px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes output {
-  from {
       opacity: 0;
       transform: translateY(100px);
   }
@@ -282,31 +267,6 @@ span {
   to {
       opacity: 1;
       transform: translateY(0);
-  }
-}
-
-
-@keyframes image-front {
-  from {
-      opacity: 0;
-      transform: translateX(-100px);
-  }
-
-  to {
-      opacity: 1;
-      transform: translateX(0);
-  }
-}
-
-@keyframes image-back {
-  from {
-      opacity: 0;
-      transform: translateX(100px);
-  }
-
-  to {
-      opacity: 1;
-      transform: translateX(0);
   }
 }
 
