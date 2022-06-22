@@ -1,52 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css "
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pokemon Finder</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css " />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-  <link rel="stylesheet" href="style.css" />
-  <title>Pokemon Finder</title>
-</head>
-
-<body>
-  <div class="container">
-    <div class="heading">
-      <div class="link-container">
-        <a class="link" href="/pokemon-list.html" target="_blank">Pokemon List</a>
-      </div>
-      <div class="logo">
-        <img src="./img/pokemon.png" class="logo" alt="pokeapi" />
-      </div>
-      <div class="error"></div>
-      <nav class="navbar">
-        <button id="btn-prev" i class="fa-solid fa-circle-arrow-left fa-2x" aria-hidden="true"></button>
-        <input type="text" name="text" id="searchText" placeholder="pokemon name" />
-        <button id="btn-next" i class="fa-solid fa-circle-arrow-right fa-2x" aria-hidden="true"></button>
-        <button id="searchButton">
-        <span class="button-text">search</span>
-        </button>
-      </nav>
-      <h2 id="name" class="form-item"></h2>
-      <div class="output" id="output">
-        <div class="image-container">
-          <div id="image_front"></div>
-          <div id="image_back"></div>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <div class="link-container">
+          <a class="link" href="/pokemon-list.html" target="_blank"
+            >Pokemon List</a
+          >
         </div>
-        <div class="flex-container">
-          <div id="species"></div>
-          <div id="types"></div>
-          <div id="ability"></div>
-          <div id="weight"></div>
-          <div id="height"></div>
-          <div id="items"></div>
+        <div class="logo">
+          <img src="./img/pokemon.png" class="logo" alt="pokeapi" />
+        </div>
+        <div class="error"></div>
+        <nav class="navbar">
+          <button
+            id="btn-prev"
+            i
+            class="fa-solid fa-circle-arrow-left fa-2x"
+            aria-hidden="true"
+          ></button>
+          <input
+            type="text"
+            name="text"
+            id="searchText"
+            placeholder="pokemon name"
+          />
+          <button
+            id="btn-next"
+            i
+            class="fa-solid fa-circle-arrow-right fa-2x"
+            aria-hidden="true"
+          ></button>
+          <button id="searchButton">
+            <span class="button-text">search</span>
+          </button>
+        </nav>
+        <h2 id="name" class="form-item"></h2>
+        <div class="output" id="output">
+          <div class="image-container">
+            <div id="image_front"></div>
+            <div id="image_back"></div>
+          </div>
+          <div class="properties-container">
+            <div id="species"></div>
+            <div id="types"></div>
+            <div id="ability"></div>
+            <div id="weight"></div>
+            <div id="height"></div>
+            <div id="items"></div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <script src="app.js"></script>
-</body>
-
+    <script src="app.js"></script>
+  </body>
 </html>

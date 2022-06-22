@@ -1,7 +1,7 @@
 const error = document.querySelector(".error");
 const button = document.querySelector("#searchButton");
-const buttonPrev = document.querySelector('#btn-prev');
-const buttonNext = document.querySelector('#btn-next');
+const buttonPrev = document.querySelector("#btn-prev");
+const buttonNext = document.querySelector("#btn-next");
 const input = document.querySelector("#searchText");
 const output = document.querySelector("#output");
 const name = document.querySelector("#name");
@@ -14,7 +14,10 @@ const items = document.querySelector("#items");
 const types = document.querySelector("#types");
 const species = document.querySelector("#species");
 const heading = document.querySelector(".heading");
-heading.style.backgroundPositionY = '-150px';
+const propertiesContainer = document.querySelector(".properties-container");
+const imageContainer = document.querySelector(".image-container");
+
+heading.style.backgroundPositionY = "-150px";
 
 button.addEventListener("click", () => {
   fetch(`https://pokeapi.co/api/v2/pokemon/${input.value}`)
@@ -55,9 +58,11 @@ button.addEventListener("click", () => {
       types.classList.add("border");
       species.innerHTML = `species: <span>${speciesValue}</span>`;
       species.classList.add("border");
-      heading.style.backgroundPositionY = '0';
-      heading.style.background.size = 'cover';
+      heading.style.backgroundPositionY = "0";
+      heading.style.background.size = "cover";
       input.value = "";
     })
-    .catch(err => alert("error try again"));
+    .catch((err) => alert("error try again"));
 });
+
+
