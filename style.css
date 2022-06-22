@@ -237,13 +237,13 @@ span {
 }
 
 #logo-list img {
-  animation: logo 1s forwards ease-in;
+  animation: logo 0.5s forwards ease-in;
 }
 
 .container-list {
   border: 1px solid var(--sec-color);
   border-radius: 10px;
-  animation: list 1s ease-in;
+  animation: list 0.5s ease-in;
 }
 
 @keyframes logo {
