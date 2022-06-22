@@ -203,8 +203,12 @@ h3 {
   border: 1px solid var(--sec-color);
 }
 
+.link-container {
+  display: flex;
+  justify-content: right;
+}
+
 .link {
-  float: right;
   background-color: var(--sec-color);
   background-size: fit-content;
   color: var(--yellow-color);
@@ -215,6 +219,8 @@ h3 {
   border-radius: 5px;
   transition: 0.2s ease;
   border: 1px solid var(--sec-color);
+  z-index: 2;
+  position: absolute;
 }
 
 .form-item {
@@ -353,10 +359,10 @@ span {
     padding-top: 1rem;
   }
 
-  .link-container {
+  /* .link-container {
     display: flex;
     justify-content: right;
-  }
+  } */
 
   @media (max-width: 320px) {
     .link {
