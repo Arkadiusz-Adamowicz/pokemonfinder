@@ -62,16 +62,11 @@ h3 {
   border-radius: 5px;
   text-align: center;
   cursor: text;
-  text-decoration: none;
   caret-color: var(--sec-color);
   width: 100%;
   opacity: 0.9;
   padding-top: 0.5rem;
-<<<<<<< HEAD
   margin: 0 1rem 0 0 ; 
-=======
-  margin: 0 1rem 0 0;
->>>>>>> ba8518eda4c2e208357f387e1535577daf363c89
   background: var(--light-color);
   border: 1px solid var(--sec-color);
   color: var(--sec-color);
@@ -226,7 +221,7 @@ h3 {
 }
 
 .form-item {
-  margin-top: 1rem 1rem;
+  margin-top: 1rem;
   padding-top: 0.5rem;
 }
 
@@ -308,21 +303,13 @@ span {
   }
 
   #searchText {
-<<<<<<< HEAD
     margin: 0 0.5rem 0 0;
-=======
-    margin: 0 1rem 0 0;
->>>>>>> ba8518eda4c2e208357f387e1535577daf363c89
     padding: 0.5rem;
     width: 80%;
   }
 
   #searchButton {
-<<<<<<< HEAD
     padding: 0 0.8rem;
-=======
-    padding: 0 0.5rem;
->>>>>>> ba8518eda4c2e208357f387e1535577daf363c89
   }
 
   ::placeholder {
