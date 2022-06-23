@@ -31,7 +31,7 @@ body {
 }
 
 .heading {
-  background-image: url("./img/poke1.jpeg");
+  background-image: url("./img/poke3.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -66,7 +66,7 @@ h3 {
   width: 100%;
   opacity: 0.9;
   padding-top: 0.5rem;
-  margin: 0 1rem 0 0 ; 
+  margin: 0 1rem 0 0 ;
   background: var(--light-color);
   border: 1px solid var(--sec-color);
   color: var(--sec-color);
